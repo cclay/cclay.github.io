@@ -1,0 +1,122 @@
+<html>
+<head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/media-object.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+<body>
+<div id="app" class='wrapper'>
+    <div id="header">
+        <button onclick="loadApp()" style="position: absolute; top:10px; left: 2px; ">Load Background</button>
+    </div>
+
+    <div id="all-media">
+    <div class="media">
+
+        <h2 class="title">
+            <a href="https://aske.obel.ca">Phoenix Aske API </a>
+        </h2>
+        <div class="content">
+            <h3> An API Serving ASCII ART crawled from various sources on the web.</h3>
+        </div>
+        <div class="footer">
+            Elixir, Phoenix, Python, Scrapy, Blender
+        </div>
+    </div>
+
+    <div class="media">
+
+        <h2 class="title">
+            <a href="http://enth.obel.ca">Enthusto</a>
+        </h2>
+        <div class="content">
+            <h3> Multi-user listening enthusiasm graph </h3>
+            <p>
+                App contains a collection of listening rooms,
+                each one plugging into a recording on soundcloud.com.
+                Users can join the room and allow the room master
+                to control the song's playback. During listening, users
+                can communicate whether certain sections interest them or not.
+            </p>
+        </div>
+        <div class="footer">
+            Nodejs, Express, socket.io, CSS-Grid, Soundcloud API, Blender
+        </div>
+    </div>
+
+    <div class="media">
+
+        <!--<div class="img">-->
+        <!--<img src="http://placehold.it/250x250" alt="Placeholder">-->
+        <!--</div>-->
+        <h2 class="title">
+            <a href="https://fl.obel.ca">brown flasky </a>
+        </h2>
+        <div class="content">
+            <p>Flask app running some apis to serve NLTK data of shakespeare and brown corpus texts.</p>
+            <br/>
+            <p>Two sections:</p>
+            <ul>
+                <li>[Mithriljs] a virtual writing coach to help you finish your sentences using shakespeare play quotes.</li>
+                <li> random selections from the brown corpus to simulate a dialogue between two characters</li>
+            </ul>
+
+        </div>
+        <div class="footer">
+            Python, Javascript, Mithriljs, Flask, NLTK, datasets, postgresql, css-grid
+        </div>
+    </div>
+
+    <div class="media">
+
+        <h2 class="title">
+            <a href="https://screenwriter.obel.ca">DRF/React Screenwriter app</a>
+        </h2>
+        <div class="content">
+            Basic text and audio saving interface for saving ideas and sharing.
+        </div>
+        <div class="footer">
+            Python, Django, Django-Rest-Framework, Javascript, React, webpack, Oauth2
+        </div>
+    </div>
+
+
+    <div class="media">
+
+        <h2 class="title">
+            <a href="https://ocr.obel.ca">Keras OCR playground</a>
+        </h2>
+        <div class="content">
+            <p>
+Django app hooked into a keras MNIST OCR model trained on 20 iterations.
+Attempts to classify Sketch.js numbers drawn by user.
+Optionally, can call Google Custom Image Search and attempt
+classification against results.
+            </p>
+        </div>
+        <div class="footer">
+            Django, Keras, Google Custom Search API, Javascript, Sketchjs
+        </div>
+    </div>
+
+
+    </div>  <!--all-media-->
+
+    <div id="aside">
+        <a href="http://cschar.github.io">
+        <i class="fa fa-github" aria-hidden="true"></i> Github
+        </a>
+
+    </div>
+
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>

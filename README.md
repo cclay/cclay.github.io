@@ -1,5 +1,5 @@
-cclay.github.io
-===============
+### cclay.github.io
 
-yo
----
+static site stuff
+
+mostly css-grid / video futzing
